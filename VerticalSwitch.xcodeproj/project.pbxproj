@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5020DAC9289EFDC900C00E41 /* VerticalSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020DAC8289EFDC900C00E41 /* VerticalSwitch.swift */; };
 		505012AA289EC3A5003162ED /* VerticalSwitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505012A9289EC3A5003162ED /* VerticalSwitchApp.swift */; };
 		505012AC289EC3A5003162ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505012AB289EC3A5003162ED /* ContentView.swift */; };
 		505012AE289EC3A8003162ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505012AD289EC3A8003162ED /* Assets.xcassets */; };
 		505012B1289EC3A8003162ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505012B0289EC3A8003162ED /* Preview Assets.xcassets */; };
+		505012B8289ED250003162ED /* CustomRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505012B7289ED250003162ED /* CustomRoundedRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5020DAC8289EFDC900C00E41 /* VerticalSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwitch.swift; sourceTree = "<group>"; };
 		505012A6289EC3A5003162ED /* VerticalSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505012A9289EC3A5003162ED /* VerticalSwitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwitchApp.swift; sourceTree = "<group>"; };
 		505012AB289EC3A5003162ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		505012AD289EC3A8003162ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505012B0289EC3A8003162ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		505012B7289ED250003162ED /* CustomRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				505012A9289EC3A5003162ED /* VerticalSwitchApp.swift */,
+				505012B7289ED250003162ED /* CustomRoundedRectangle.swift */,
+				5020DAC8289EFDC900C00E41 /* VerticalSwitch.swift */,
 				505012AB289EC3A5003162ED /* ContentView.swift */,
 				505012AD289EC3A8003162ED /* Assets.xcassets */,
 				505012AF289EC3A8003162ED /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505012B8289ED250003162ED /* CustomRoundedRectangle.swift in Sources */,
 				505012AC289EC3A5003162ED /* ContentView.swift in Sources */,
 				505012AA289EC3A5003162ED /* VerticalSwitchApp.swift in Sources */,
+				5020DAC9289EFDC900C00E41 /* VerticalSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
